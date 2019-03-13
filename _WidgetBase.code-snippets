@@ -19,7 +19,7 @@
 			"    buildRendering(props) {",
 			"        declare.safeMixin(this, props);",
 			"",
-			"		this.domNode = domConstruct.create(\"div\", { \"__WidgetName__\" }, this.domNode);",
+			"		this.domNode = domConstruct.create(\"div\", { class: \"__WidgetName__\" }, this.domNode);",
 			"    },",
 			"    postCreate(props) { },",
 			"    startup(props) { },"
