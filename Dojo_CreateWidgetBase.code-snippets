@@ -1,7 +1,6 @@
-{
-	"Create _WidgetBase" : {
-		"scope": "javascript,typescript",
-		"prefix": "_WidgetBase",
+	"CreateWidgetBase" : {
+		"scope": "typescript",
+		"prefix": "CreateWidgetBase",
 		"body": [
 			"import * as declare from \"dojo/_base/declare\";",
 			"import * as on from \"dojo/on\";",
@@ -19,11 +18,11 @@
 			"    buildRendering(props) {",
 			"        declare.safeMixin(this, props);",
 			"",
-			"		this.domNode = domConstruct.create(\"div\", { class: \"__WidgetName__\" }, this.domNode);",
+			"        this.domNode = domConstruct.create(\"div\", { class: \"__WidgetName__\" }, this.domNode);",
 			"    },",
 			"    postCreate(props) { },",
-			"    startup(props) { },"
+			"    startup(props) { }",
+			"}"
 		],
 		"description": "Create _WidgetBase lifecycle defaults"
 	}
-}
