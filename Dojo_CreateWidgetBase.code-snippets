@@ -22,7 +22,7 @@
 			"    },",
 			"    postCreate(props) { },",
 			"    startup(props) { }",
-			"}"
+			"});"
 		],
 		"description": "Create _WidgetBase lifecycle defaults"
 	}
